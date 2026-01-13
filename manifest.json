@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube: Open Without Playlist",
+  "version": "1.0.0",
+  "description": "Adds a right-click menu item to open YouTube videos in a new tab without playlist parameters.",
+  "permissions": ["contextMenus", "tabs"],
+  "host_permissions": ["https://www.youtube.com/*", "https://youtu.be/*"],
+  "background": { "service_worker": "background.js" }
+}
