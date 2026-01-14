@@ -28,7 +28,7 @@ No ads are blocked and no playback behavior is modified beyond removing playlist
 This extension is intentionally lightweight and is loaded as an unpacked extension.
 
 1. Clone or download this repository
-2. Open Chrome and navigate to:
+2. Open Chrome and navigate to: chrome://extensions
 3. Enable **Developer mode** (top right)
 4. Click **Load unpacked**
 5. Select the folder containing the extension files
