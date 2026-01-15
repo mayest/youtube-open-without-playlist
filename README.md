@@ -31,15 +31,19 @@ This extension is intentionally lightweight and is loaded as an unpacked extensi
    a. Choose (or create) a directory where you keep local projects or browser extensions
 
    - Example (macOS/Linux):
+
      ```
      mkdir -p ~/ChromeExtensions
      cd ~/ChromeExtensions
      ```
+
    - Example (Windows PowerShell):
-     `     mkdir $HOME\\ChromeExtensions
-     cd $HOME\\ChromeExtensions
-    `
-     b. Clone the repository using Git:
+     ```
+     mkdir $HOME\ChromeExtensions
+     cd $HOME\ChromeExtensions
+     ```
+
+   b. Clone the repository using Git:
 
    ```
    git clone https://github.com/mayest/youtube-open-without-playlist.git
