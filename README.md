@@ -27,11 +27,41 @@ No ads are blocked and no playback behavior is modified beyond removing playlist
 
 This extension is intentionally lightweight and is loaded as an unpacked extension.
 
-1. Clone or download this repository
-2. Open Chrome and navigate to: chrome://extensions
+1. Clone the repository to your local machine  
+   a. Choose (or create) a directory where you keep local projects or browser extensions
+
+   - Example (macOS/Linux):
+     ```
+     mkdir -p ~/ChromeExtensions
+     cd ~/ChromeExtensions
+     ```
+   - Example (Windows PowerShell):
+     `     mkdir $HOME\\ChromeExtensions
+     cd $HOME\\ChromeExtensions
+    `
+     b. Clone the repository using Git:
+
+   ```
+   git clone https://github.com/mayest/youtube-open-without-playlist.git
+   ```
+
+   c. This will create a folder named:
+
+   ```
+   youtube-open-without-playlist
+   ```
+
+2. Open Chrome and navigate to:
+
+   ```
+   chrome://extensions
+   ```
+
 3. Enable **Developer mode** (top right)
+
 4. Click **Load unpacked**
-5. Select the folder containing the extension files
+
+5. Select the `youtube-open-without-playlist` folder (the one containing `manifest.json`)
 
 The extension is now active.
 
